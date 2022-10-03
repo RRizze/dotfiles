@@ -1,0 +1,43 @@
+*fading: 0 
+*.cursorColor:  #cacaca
+
+*background: #121212
+*foreground: #dfdfe0
+
+!black
+*color0: #1d1d1d
+*color8: #1d1d1d
+
+!red
+*color1: #f56784
+*color9: #f56784
+
+!green
+*color2: #58cd8b 
+*color10:#58cd8b 
+
+!yellow
+*color3: #FFE37E
+*color11: #FFE37E
+
+!blue
+*color4: #719cd6
+*color12: #719cd6
+
+!magenta
+*color5: #B8A1E3
+*color13: #B8A1E3
+
+!cyan
+*color6: #63CDCF
+*color14: #63CDCF
+
+!white
+*color7: #8F93A2
+*color15: #8F93A2
+
+! Xft.antialias:  true
+! Xft.rgba:       rgb
+! Xft.hinting:    true
+! Xft.hintstyle:  hintslight
+! Xft.dpi:        96.0
