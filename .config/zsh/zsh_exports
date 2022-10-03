@@ -1,0 +1,24 @@
+#!/bin/sh
+
+#typeset -U path PATH
+# path=($HOME/.local/bin $path)
+#export PATH
+
+PATH="$HOME/.local/bin:$PATH"
+PATH="$HOME/bin:$PATH"
+PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="$HOME/.nodenv/bin:$PATH"
+PATH="$HOME/.rbenv/bin:$PATH"
+PATH=$HOME/.yarn/bin:$PATH
+
+export SHELL=/bin/bash
+export TERM=alacritty
+export EDITOR=/usr/bin/vim
+
+export WORKON_HOME=~/.virtualenvs
+export PROJECT_HOME=~/dev/pyproj
+source /usr/bin/virtualenvwrapper_lazy.sh
+
+eval "$(nodenv init -)"
+eval "$(rbenv init - bash)"
+

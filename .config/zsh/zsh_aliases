@@ -1,0 +1,17 @@
+#!/bin/sh
+
+alias ls="ls --classify --tabsize=0 --group-directories-first --color=auto --human-readable --literal --show-control-chars"
+alias l="ls -lF --color=auto" # all files, in long format
+alias la="ls -lA" # all files inc dotfiles, in long format
+alias lsd='ls -lF --color=auto | grep "^d"' # only directories
+alias xmerg='xrdb -merge ~/.Xresources'
+
+alias pacu="sudo pacman -Syu"
+alias pacr="sudo pacman -Rs"
+alias pac="sudo pacman -S"
+alias pacclean="sudo pacman -Sc"
+alias pacinf="pacman -Si"
+alias pacs="pacman -Ss"
+
+alias aur="yay -S"
+alias auru="yay -Syu"
